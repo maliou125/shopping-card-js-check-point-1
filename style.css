@@ -1,0 +1,146 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+    background: #f2f2f2;
+}
+/*icon heart*/
+.fa-regular.fa-heart{
+    font-size: 25px;
+    color: rgb(237, 157, 157);
+}
+/*header section*/
+.container1{
+    width: 1000px;
+    margin: auto;
+    transition: 0.5s;
+
+  
+
+}
+.container1 h1{
+    color: #560bad;
+}
+
+.container1 header{
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    margin-top: 50px;
+}
+
+.container1 header .shopping{
+    position: relative;
+    text-align: right;
+}
+
+.shopping i{
+    font-size: 3rem;
+    color: #560bad;
+    cursor: pointer;
+    transition: all 0.25 ease;
+    
+
+}
+.shopping i:hover{
+    color: #6f20ca;
+}
+
+.shopping span{
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f2f2f2;
+    position: absolute;
+    top: -5px;
+    left: 80%;
+    padding: 3px 10px;
+}
+/* shopping card section*/
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.content{
+    width:20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,25),0 10px 10px rgba(0,0,0,22);
+    transition: .4s;
+    background: #f2f2f2;
+}
+.content:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,16), 0 3px 6px rgba(0,0,0,23);
+    transition: translate(0px,-8px);
+}
+
+
+
+img{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+#total-price{
+    justify-content: center;
+    text-align: center;
+}
+
+.deleteBtn{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quantity{
+    width: 150px;
+}
+
+.buynow{
+    margin-bottom: 10px;
+    margin-left: 30%;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 40%;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+
+}
+/* to make it responsive  media secreen section*/
+
+@media (max-width:1300px){
+ .content{
+    width: 45%;
+ }
+
+}
+@media (max-width:750px){
+    .content{
+       width: 100%;
+    }
+   
+   }    
+
+
